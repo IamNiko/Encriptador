@@ -1,3 +1,4 @@
+# importamos las librerias
 
 import tkinter as tk
 from tkinter import scrolledtext as st
@@ -6,6 +7,7 @@ import random
 from tkinter import filedialog as fd
 from tkinter import messagebox
 
+# creamos la app
 
 class Aplicacion:
     def __init__(self):
@@ -29,7 +31,7 @@ class Aplicacion:
         self.botonBorrar.grid(row=3, column=3, sticky="e", padx=10, pady=10)
         self.ventana1.mainloop()
 
-
+    # cramos todas las funciones de la app
 
     def agregar_menu(self):
         menubar1 = tk.Menu(self.ventana1)
